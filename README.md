@@ -1,4 +1,4 @@
-NOTE
+NOTE [![Build Status](https://travis-ci.com/StreetEasy/chronic.svg?branch=master)](https://travis-ci.com/StreetEasy/chronic)
 ====
 
 This is a fork of https://gitlab.com/gitlab-org/gitlab-chronic, unfortunately Git-Lab renamed the original `chronic` gem as `gitlab-chronic` which avoid us to use it for all the gems relying on the original gem name (`chronic`), for instance: `rufus-scheduler`, `resque-scheduler`, etc.
