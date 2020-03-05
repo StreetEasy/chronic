@@ -1,3 +1,11 @@
+NOTE
+====
+
+This is a fork of https://gitlab.com/gitlab-org/gitlab-chronic, unfortunately Git-Lab renamed the original `chronic` gem as `gitlab-chronic` which avoid us to use it for all the gems relying on the original gem name (`chronic`), for instance: `rufus-scheduler`, `resque-scheduler`, etc.
+
+The main reason of this fork is to rename the gem back to `chronic`.
+
+
 Chronic
 =======
 
