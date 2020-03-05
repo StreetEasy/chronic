@@ -2,14 +2,14 @@ $:.unshift File.expand_path('../lib', __FILE__)
 require 'chronic/version'
 
 Gem::Specification.new do |s|
-  s.name = 'gitlab-chronic'
+  s.name = 'chronic'
   s.version = Chronic::VERSION
   s.rubyforge_project = 'chronic'
   s.summary     = 'Natural language date/time parsing.'
   s.description = 'Chronic is a natural language date/time parser written in pure Ruby.'
   s.authors  = ['Tom Preston-Werner', 'Lee Jarvis']
   s.email    = ['tom@mojombo.com', 'ljjarvis@gmail.com']
-  s.homepage = 'https://gitlab.com/gitlab-org/gitlab-chronic'
+  s.homepage = 'https://github.com/StreetEasy/chronic'
   s.license = 'MIT'
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = %w[README.md HISTORY.md LICENSE]

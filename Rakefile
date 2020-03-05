@@ -6,7 +6,7 @@ def version
 end
 
 def do_test
-  require 'gitlab-chronic'
+  require 'chronic'
   $:.unshift './test'
   Dir.glob('test/test_*.rb').each { |t| require File.basename(t) }
 end
@@ -62,7 +62,7 @@ desc 'Build a gem from the gemspec'
 task :build do
   FileUtils.mkdir_p 'pkg'
   sh 'gem build chronic.gemspec'
-  FileUtils.mv("./gitlab-chronic-#{version}.gem", "pkg")
+  FileUtils.mv("./chronic-#{version}.gem", "pkg")
 end
 
 task :default => :test
