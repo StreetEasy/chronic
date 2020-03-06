@@ -1,9 +1,28 @@
 NOTE [![Build Status](https://travis-ci.com/StreetEasy/chronic.svg?branch=master)](https://travis-ci.com/StreetEasy/chronic)
 ====
 
-This is a fork of https://gitlab.com/gitlab-org/gitlab-chronic, unfortunately Git-Lab renamed the original `chronic` gem as `gitlab-chronic` which avoid us to use it for all the gems relying on the original gem name (`chronic`), for instance: `rufus-scheduler`, `resque-scheduler`, etc.
+This is a fork of https://gitlab.com/gitlab-org/gitlab-chronic, unfortunately Git-Lab renamed the original `chronic` gem as `gitlab-chronic` which avoid us to use it as a replacement of the original gem name (`chronic`), because other gems like `rufus-scheduler` depends on `chronic` (and not `gitlab-chronic`).
 
 The main reason of this fork is to rename the gem back to `chronic`.
+
+If you want to get the latest changes in the `gitlab-chronic` repo, add it as an upstream repo:
+
+```
+git remote add upstream https://gitlab.com/gitlab-org/gitlab-chronic.git
+```
+
+Keep the upstream updated
+
+```
+git fetch upstream
+```
+
+Merge the upstream
+
+```
+git merge upstream/master master
+```
+
 
 
 Chronic

@@ -1,3 +1,9 @@
+## --- Begin chronic changes ---
+
+# 0.10.4 / 2020/03/05
+
+* Rename gitlab-chronic -> chronic
+
 ## --- Begin gitlab-chronic changes ---
 
 # 0.10.4 / 2019-11-24
